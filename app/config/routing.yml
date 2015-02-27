@@ -1,0 +1,9 @@
+main:
+    path:       /
+    defaults:   {_controller: DemoRestBundle:Default:index}
+    
+authors:
+    type:       rest
+    prefix:     /api
+    resource:   Demo\RestBundle\Controller\AuthorsController
+    
